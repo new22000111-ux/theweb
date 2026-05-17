@@ -1,0 +1,11 @@
+name = "freemc-worker"
+main = "src/index.js"
+compatibility_date = "2026-05-17"
+
+# Add this if you need built-in Node.js APIs for future bridge work:
+# compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "freemc-db"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
